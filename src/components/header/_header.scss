@@ -1,0 +1,52 @@
+@use '../../style/helpers/variables';
+
+.header {
+    padding: 46px 0px 56px;
+
+    &__row {
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        &-link {
+            display: flex;
+            align-items: center;
+            column-gap: 13px;
+
+            & span {
+                color: var(--color-black);
+                font-weight: 900;
+                font-size: 40px;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    &__nav {
+        &-list {
+            display: flex;
+            column-gap: 65px;
+            align-items: center;
+
+            &-link {
+                color: var(--color-black);
+                font-weight: 500;
+                font-size: 22px;
+                letter-spacing: 0.01em;
+            }
+
+            & .btn {
+                background-color: var(--color-black);
+                color: var(--color-white);
+                font-size: 24px;
+                letter-spacing: -0.03em;
+                padding: 13px 22px;
+                border-radius: 7px;
+            }
+        }
+    }
+}

@@ -1,3 +1,5 @@
 @use './style/normalize' as *;
 @use './style/helpers/variables' as *;
 @use './style/global' as *;
+
+@use './components/header/header' as *;
