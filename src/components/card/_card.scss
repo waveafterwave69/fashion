@@ -1,0 +1,57 @@
+@use '../../style/helpers/variables';
+
+.card {
+    &__link {
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    &:hover &__content-btn {
+        animation: slide 0.3s;
+    }
+
+    &__img {
+        margin-bottom: 28px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 10px;
+        align-items: center;
+
+        &-title {
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 156%;
+            letter-spacing: -0.04em;
+            margin-bottom: 7px;
+        }
+
+        &-subtitle {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 208%;
+            letter-spacing: -0.04em;
+            color: var(--color-gray);
+        }
+
+        &-btn {
+            position: relative;
+        }
+    }
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: -25px;
+    }
+
+    100% {
+        left: 0;
+    }
+}

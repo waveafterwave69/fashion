@@ -1,0 +1,19 @@
+@use '../../style/helpers/variables';
+
+.arrivals {
+    padding-top: 120px;
+    padding-bottom: 143px;
+
+    &__title {
+        margin-bottom: 114px;
+    }
+
+    &__cards {
+        &-list {
+            display: flex;
+            justify-content: space-between;
+            column-gap: 10px;
+            flex-wrap: wrap;
+        }
+    }
+}
