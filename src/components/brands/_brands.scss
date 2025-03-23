@@ -1,0 +1,19 @@
+@use '../../style/helpers/variables';
+
+.brands {
+    background-color: var(--color-yellow);
+    padding: 60px 0 55px;
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        column-gap: 120px;
+        row-gap: 20px;
+
+        &-img {
+            mix-blend-mode: multiply;
+        }
+    }
+}

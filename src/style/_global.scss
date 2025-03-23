@@ -12,11 +12,11 @@ svg * {
 
 body {
     background-color: var(--color-background);
-    padding: 0 var(--container-padding-x);
     font-family: var(--font-family);
 }
 
 .container {
     max-width: var(--container-width);
+    padding: 0 var(--container-padding-x);
     margin: 0 auto;
 }
