@@ -1,0 +1,15 @@
+@use '../../style/helpers/variables';
+
+.young {
+    margin-bottom: 200px;
+
+    &__title {
+        margin-bottom: 104px;
+    }
+
+    &__list {
+        display: flex;
+        column-gap: 47px;
+        flex-wrap: wrap;
+    }
+}
