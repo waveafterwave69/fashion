@@ -4,6 +4,7 @@ import Brands from './components/brands/Brands'
 import Arrivals from './components/arrivals/Arrivals'
 import Payday from './components/payday/Payday'
 import Young from './components/young/Young'
+import Download from './components/download/Download'
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <Arrivals></Arrivals>
             <Payday></Payday>
             <Young></Young>
+            <Download></Download>
         </>
     )
 }
