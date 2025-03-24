@@ -1,6 +1,6 @@
 import Card from '../card/Card'
 
-import { cardItems } from '../../Data'
+import { cardItems } from '../../data'
 
 export default function Arrivals() {
     return (
@@ -12,11 +12,8 @@ export default function Arrivals() {
                         <ul className="arrivals__cards-list">
                             {cardItems.map((cardItem) => {
                                 return (
-                                    <li>
-                                        <Card
-                                            key={cardItem.title}
-                                            {...cardItem}
-                                        ></Card>
+                                    <li key={cardItem.title}>
+                                        <Card {...cardItem}></Card>
                                     </li>
                                 )
                             })}
