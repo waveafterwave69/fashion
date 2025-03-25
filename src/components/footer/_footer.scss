@@ -1,0 +1,68 @@
+@use '../../style/helpers/variables';
+
+.footer {
+    background-color: var(--color-black);
+    padding: 119px 75px 147px;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        &-title {
+            font-weight: 900;
+            font-size: 40px;
+            letter-spacing: 0.03em;
+            color: var(--color-white);
+            margin-bottom: 32px;
+        }
+
+        &-text {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 200%;
+            letter-spacing: 0.02em;
+            color: #8e8e8e;
+            margin-bottom: 32px;
+            max-width: 415px;
+        }
+
+        &-list {
+            display: flex;
+            column-gap: 14px;
+        }
+    }
+
+    &__right {
+        &-row {
+            display: flex;
+            column-gap: 125px;
+
+            &-el {
+                &-title {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 200%;
+                    letter-spacing: 0.02em;
+                    color: #d9d9d9;
+                    margin-bottom: 32px;
+                }
+
+                &-list {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 32px;
+
+                    &-link {
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 200%;
+                        letter-spacing: 0.02em;
+                        color: #8e8e8e;
+                    }
+                }
+            }
+        }
+    }
+}

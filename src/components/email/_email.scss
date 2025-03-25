@@ -1,0 +1,61 @@
+@use '../../style/helpers/variables';
+
+.email {
+    background-color: #e5c643;
+    padding: 141px 300px 156px;
+
+    &__title {
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 127%;
+        letter-spacing: 0.03em;
+        text-align: center;
+        max-width: 966px;
+        margin: 0 auto;
+        color: var(--color-white);
+        margin-bottom: 37px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 109%;
+        letter-spacing: 0.03em;
+        color: #fffcf8;
+        margin: 0 auto;
+        max-width: 1010px;
+        margin-bottom: 50px;
+    }
+
+    &__form {
+        background: #fff;
+        border-radius: 10px;
+        max-width: 574px;
+        column-gap: 27px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 10px 10px 27px;
+
+        &-input {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 146%;
+            letter-spacing: 0.03em;
+            width: 100%;
+        }
+
+        &-btn {
+            font-weight: 500;
+            font-size: 33px;
+            line-height: 106%;
+            letter-spacing: 0.03em;
+            text-transform: capitalize;
+            color: var(--color-white);
+            padding: 16px 35px;
+            border-radius: 8px;
+
+            background-color: var(--color-black);
+        }
+    }
+}

@@ -5,6 +5,8 @@ import Arrivals from './components/arrivals/Arrivals'
 import Payday from './components/payday/Payday'
 import Young from './components/young/Young'
 import Download from './components/download/Download'
+import Email from './components/email/Email'
+import Footer from './components/footer/Footer'
 
 function App() {
     return (
@@ -16,6 +18,8 @@ function App() {
             <Payday></Payday>
             <Young></Young>
             <Download></Download>
+            <Email></Email>
+            <Footer></Footer>
         </>
     )
 }

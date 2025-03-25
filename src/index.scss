@@ -10,3 +10,7 @@
 @use './components/payday/payday' as *;
 @use './components/young/young' as *;
 @use './components/download/download' as *;
+@use './components/email/email' as *;
+@use './components/footer/footer' as *;
+
+@use './style/media' as *;
